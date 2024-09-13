@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- title of website -->
+        <title>Reaction Time Test</title>
+        <!-- link to the css -->
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+        <!-- The screen at the end which shows the average reaction time
+        over 5 tries -->
+        <div class="end-screen">
+            <div class="container">
+                <h1>Your Reaction Time</h1>
+                <div class="reaction-time-text">200 ms</div>
+                <button class="play-again-btn">back</button>
+            </div>
+        </div>
+
+        <!-- starting screen, the "active" tag means that it is showing. 
+        See css to switch divs to active (meaning they are showing)-->
+        <div class="main-menu active">
+            <div class="container">
+                <h1>Reaction Time Test</h1>
+                <p>Click as soon as you see the green color on the screen.</p>
+                <p>Click anywhere to start</p>
+            </div>
+
+        </div>
+
+        <!-- div of entire screen that tracks if it is clicked -->
+        <div class="clickable-area">
+            <div class="message">Click now!</div>
+        </div>
+
+        <!-- connect this html to javascript file -->
+        <script src="main.js"></script>
+    </body>
+</html>
