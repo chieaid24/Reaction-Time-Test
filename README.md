@@ -1,4 +1,4 @@
-<h1 align="center">Reaction Time Test</h1>
+<h1 align="center">⚡Reaction Time Test</h1>
 
 ### A single-page HTML application for users to calculate their reaction time. 
 
